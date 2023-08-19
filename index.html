@@ -37,12 +37,101 @@
             </div>
         </section>
     </header>
-    <main>
-        <section>
-
+    <!-- Main -->
+    <main class="bg-[#F8F8F8]">
+        <!-- Card & Cart Section -->
+        <section class="flex flex-col lg:flex-row max-w-[1280px] mx-auto pt-24">
+            <!-- Card Section -->
+            <section class="flex-1">
+                <!-- Kitchenware -->
+                <section>
+                    <h1 class="text-black text-4xl font-bold mb-5">Kitchenware</h1>
+                    <div class="grid grid-cols-1 lg:grid-cols-3">
+                        <!-- Kitchenware Card-1 -->
+                        <div class="card bg-base-100 w-[90%]">
+                            <figure class="p-5 m-4 rounded-lg bg-[#1111110d]">
+                                <img src="./images/prod1.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <div class="rating rating-md space-x-1">
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="card-title">K. Accessories</h2>
+                                <p class="text-[#11111180] font-semibold">39.00 TK</p>
+                            </div>
+                        </div>
+                        <!-- Kitchenware Card-2 -->
+                        <div class="card bg-base-100 w-[90%]">
+                            <figure class="p-5 m-4 rounded-lg bg-slate-500">
+                                <img src="./images/prod1.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <div class="rating rating-md space-x-2">
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="card-title">K. Accessories</h2>
+                                <p>39.00 TK</p>
+                            </div>
+                        </div>
+                        <!-- Kitchenware Card-3 -->
+                        <div class="card bg-base-100 w-[90%]">
+                            <figure class="p-5 m-4 rounded-lg bg-slate-500">
+                                <img src="./images/prod1.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <div class="rating rating-md space-x-2">
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"
+                                        checked />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                </div>
+                                <h2 class="card-title">K. Accessories</h2>
+                                <p>39.00 TK</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!-- Cart Section -->
+            <section class="mt-16 space-y-7">
+                <div class="bg-base-100 px-4 py-6 space-y-4 rounded-lg">
+                    <h3 class="text-black text-xl font-semibold">Have coupon?</h3>
+                    <input class="border-l border-y rounded p-2 w-40" type="text" placeholder="Coupon code"><button
+                        class="bg-[#E527B2] h-[42px] text rounded-r w-20 text-white font-medium">Apply</button>
+                </div>
+                <div class="bg-base-100 px-4 py-6 space-y-4 rounded-lg">
+                    <div class="font-semibold text-xl">
+                        <p>1. Home Cooker</p>
+                        <p>2. Sports cates</p>
+                        <p>3. Home Cooker</p>
+                    </div>
+                    <hr>
+                    <div>
+                        <p class="font-semibold text-xl">Total price: <span class="text-[#11111180]">257.00 TK</span>
+                        </p>
+                        <p class="font-semibold text-xl">Discount : <span class="text-[#11111180]">51.00 TK</span></p>
+                        <p class="font-semibold text-xl">Total: <span class="text-[#11111180]">205.00 TK</span></p>
+                    </div>
+                    <hr>
+                    <button class="bg-[#E527B2] h-[42px] rounded w-[90%] block mx-auto text-white">Make
+                        Purchase</button>
+                </div>
+            </section>
         </section>
     </main>
-    <script src="./scripts/utilities.js"></script>
+    <script src=" ./scripts/utilities.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
 
